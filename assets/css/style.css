@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    text-align: center;
+}
+input[type=text]{
+    width: 30vw;
+}
+input[type=button]{
+    text-align: center;
+}
+
+#emptyField{
+    color: red;
+}
+#messageAfter{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    opacity: 0;
+    /* transition: all 1s; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+img{
+    display: inline-block;
+    padding: 20px;
+}
+
+/* case ("apr", "Apr", "april", "April"): */
+
+h2{
+    color: red;
+}
+#text2{
+    padding: 10px;
+}
